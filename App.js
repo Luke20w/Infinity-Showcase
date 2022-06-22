@@ -1,11 +1,8 @@
 import React, { useState } from "react";
 import { View, ScrollView } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
-import {
-  createStackNavigator,
-  TransitionPresets,
-} from "@react-navigation/stack";
-import { useFonts } from "@use-expo/font";
+import { createStackNavigator, TransitionPresets } from "@react-navigation/stack";
+import { useFonts } from "expo-font";
 import {
   UIButton,
   UIText,
